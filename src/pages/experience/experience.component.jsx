@@ -1,6 +1,5 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Jumbotron from "react-bootstrap/Jumbotron";
 import Card from "react-bootstrap/Card";
 import L_LIVTAAR from "../../assets/img/experience/livtaar.png";
 import L_BURN from "../../assets/img/experience/burn.png";
