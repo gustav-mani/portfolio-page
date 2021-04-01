@@ -11,10 +11,9 @@ import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 import ContactForm from "./pages/contact-form/contact-form.component";
 import { Parallax } from "react-parallax";
-import Particles from "react-particles-js";
-import { particlesOptions } from "./particlesOptions";
+/* import Particles from "react-particles-js";
+import { particlesOptions } from "./particlesOptions"; */
 import FooterPanel from "./components/footer/footer.component";
-
 import "./App.css";
 
 const App = () => {
@@ -23,11 +22,10 @@ const App = () => {
       <MyCarousal />
       <MyTitleMessage />
       <MyNavbar />
-      <Particles
-        className="particles particles-box"
-        params={particlesOptions}
-      /> 
-
+      {/* <Particles
+      className="particles particles-box"
+      params={particlesOptions}
+      />  */}
       <div>
         <Parallax
           blur={{ min: -30, max: 30 }}
