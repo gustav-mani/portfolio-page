@@ -31,7 +31,7 @@ const TimeLine = () => {
       <Timeline>
         <Events>
           <ImageEvent
-            date="01/10/2020"
+            date="01/02/2021"
             className="text-center"
             text="TimeCapsule"
             src={L_TIMECAPSULE}
@@ -172,7 +172,7 @@ const TimeLine = () => {
           </ImageEvent>
 
           <ImageEvent
-            date="16/09/2020"
+            date="29/11/2020"
             className="text-center"
             text="Sorting Visaulizer"
             src={L_SORTING}
@@ -274,7 +274,7 @@ const TimeLine = () => {
           </ImageEvent>
 
           <ImageEvent
-            date="19/07/2020"
+            date="11/07/2019"
             className="text-center"
             text="FOPID Controller"
             src={L_FOPID}
