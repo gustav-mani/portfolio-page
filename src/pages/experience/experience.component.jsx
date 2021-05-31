@@ -13,16 +13,16 @@ import "../../components/my-carousal/my-carousal.styles.css";
 
 const Experience = () => {
   return (
-    <div id="experience">
+    <div>
       <h1 className="pt-3 text-center font-details-b pb-3">EXPERIENCE</h1>
-      <Carousel controls={false} indicators interval={2500} pause={"hover"}>
+      <Carousel controls={false} indicators interval={25000} pause={"hover"}>
         <Carousel.Item>
-          <Container>
+          <Container fluid>
             <Tilt options={{ max: 20 }}>
               <Card>
                 <Card.Header
                   as="h5"
-                  className="d-flex justify-content-center flex-wrap"
+                  className="d-flex justify-content-center flex-wrap "
                 >
                   <Card.Img
                     variant="top"

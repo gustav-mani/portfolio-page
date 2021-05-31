@@ -26,3 +26,9 @@
   font-weight: 500;
   color: #ffffff;
 }
+
+@media (max-width: 700px) {
+  .pad {
+    padding: 0 10%;
+  }
+}
